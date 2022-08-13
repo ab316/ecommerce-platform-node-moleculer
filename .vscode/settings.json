@@ -4,5 +4,6 @@
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "typescript.format.enable": false,
-  "json.format.enable": false
+  "json.format.enable": false,
+  "eslint.enable": true
 }

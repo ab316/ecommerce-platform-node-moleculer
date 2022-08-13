@@ -1,32 +1,18 @@
 {
   "compilerOptions": {
     "experimentalDecorators": true,
-    "module": "commonjs",
-    "target": "es6",
-    "lib": [
-      "es6",
-      "esnext",
-      "es2015",
-      "dom"
-    ],
+    "module": "Node16",
+    "moduleResolution": "Node16",
+    "target": "ES6",
+    "lib": ["es6", "esnext", "es2015", "dom"],
     "noImplicitAny": false,
     "suppressImplicitAnyIndexErrors": true,
-    "moduleResolution": "node",
     "emitDecoratorMetadata": true,
     "allowSyntheticDefaultImports": true,
     "sourceMap": true,
     "declaration": true,
-    "types": [
-      "node",
-    ],
-    "typeRoots": [
-      "node_modules/@types"
-    ],
-    // "paths": {
-    //   "@schema/*": ["./src/module/schemas/*"]
-    // }
+    "types": ["node"],
+    "typeRoots": ["node_modules/@types"]
   },
-  "exclude": [
-    "node_modules"
-  ]
+  "exclude": ["**/node_modules"]
 }
