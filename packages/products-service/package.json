@@ -1,0 +1,19 @@
+{
+  "name": "products-service",
+  "version": "0.0.1",
+  "description": "Products microservice",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "start:dev": "nodemon",
+    "build": "tsc",
+    "postbuild": "ef-tspm",
+    "test": "NODE_ENV=test DOTENV_CONFIG_PATH=./test/env mocha",
+    "lint": "eslint src/ --fix"
+  },
+  "dependencies": {
+    "moleculer": "^0.14.21",
+    "moleculer-decorators": "^1.3.0",
+    "moleculer-web": "^0.10.4"
+  }
+}

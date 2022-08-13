@@ -1,0 +1,4 @@
+{
+  "spec": "test/**/*.test.ts",
+  "require": ["dotenv/config", "ts-node/register", "tsconfig-paths/register"]
+}
