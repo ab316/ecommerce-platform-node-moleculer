@@ -11,7 +11,7 @@
     "allowSyntheticDefaultImports": true,
     "sourceMap": true,
     "declaration": true,
-    "types": ["node"],
+    "types": ["node", "mocha"],
     "typeRoots": ["node_modules/@types"]
   },
   "exclude": ["**/node_modules"]

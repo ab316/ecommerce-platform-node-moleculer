@@ -3,16 +3,23 @@
   "workspaces": [
     "packages/*"
   ],
+  "dependencies": {
+    "dotenv": "^16.0.1"
+  },
   "devDependencies": {
     "@ef-carbon/tspm": "^2.2.5",
+    "@types/chai": "^4.3.3",
+    "@types/mocha": "^9.1.1",
     "@types/node": "^16.7.2",
     "@typescript-eslint/eslint-plugin": "^5.33.0",
     "@typescript-eslint/parser": "^5.33.0",
+    "chai": "^4.3.6",
     "eslint": "^8.21.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
+    "mocha": "^10.0.0",
     "nodemon": "^2.0.19",
     "prettier": "^2.7.1",
     "ts-node": "^10.9.1",
