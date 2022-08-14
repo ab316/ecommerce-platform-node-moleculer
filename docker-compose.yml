@@ -21,6 +21,8 @@ services:
         "start:dev"
       ]
     working_dir: /app
+    env_file:
+      - config/docker/env/common.env
     volumes:
       - .:/app
     ports:

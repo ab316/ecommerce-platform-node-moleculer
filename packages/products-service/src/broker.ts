@@ -1,9 +1,9 @@
-import {ServiceBroker, Service} from 'moleculer';
+import {ServiceBroker} from 'moleculer';
 import coreServices from '@services/core';
 
 let broker: ServiceBroker;
 
-async function initBroker({gateway = true, preloadServices = [] as Service[]}) {
+async function initBroker({gateway = true, preloadServices = []}): Promise<void> {
   gateway = typeof gateway === 'undefined' ? true : gateway;
   preloadServices = typeof preloadServices === 'undefined' ? [] : preloadServices;
 
