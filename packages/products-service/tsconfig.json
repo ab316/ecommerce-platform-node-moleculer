@@ -5,6 +5,7 @@
     "baseUrl": "src",
     "paths": {
       "@services/*": ["services/*"],
+      "@modules/*": ["modules/*"],
       "@utils/*": ["utils/*"]
     }
   },

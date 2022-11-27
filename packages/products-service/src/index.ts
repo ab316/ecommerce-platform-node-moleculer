@@ -1,6 +1,5 @@
 import 'dotenv/config';
-
-import db from 'db';
+import '@modules/db';
 import {initBroker, startBroker} from './broker';
 import ProductsService from 'products/Products.service';
 import CategoriesService from 'products/Categories.service';
