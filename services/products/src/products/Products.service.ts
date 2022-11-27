@@ -18,6 +18,4 @@ export default class ProductsService extends MoleculerService {
       where: {id: id},
     });
   }
-
-  public async create();
 }
